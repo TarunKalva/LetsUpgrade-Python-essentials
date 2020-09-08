@@ -87,7 +87,7 @@ capitalizestring= lambda v:" ".join(map(lambda x:x.capitalize(),input().split())
 # In[80]:
 
 
-sent=map(capitalizestring,range(3))
+sent=map(capitalizestring,range(int(input('Enter the number of sentences you wanna enter:'))))
 s=list(sent)
 print(s)
 
